@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(129, 114, 129);
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    padding: 0px 30px;
+    justify-content: center;
+}
+
+.left {
+    position: relative;
+    height: 90%;
+    width: 30%;
+    background-color: #009AED;
+    color: white;
+}
+
+.left,
+.right {
+    border-radius: 10px;
+}
+
+.left img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.txt {
+    padding: 20px 30px;
+}
+
+.left h2 {
+    /* margin-top: 13%; */
+    font-size: 35px;
+}
+
+.text p {
+    font-size: 18px;
+    margin: 5% 0;
+    line-height: 1.5vw;
+    /* width: 90%; */
+}
+
+.left button {
+    color: white;
+    font-weight: 700;
+    padding: 10px 100px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 17px;
+}
+
+i {
+    position: absolute;
+    right: 7%;
+    top: 35%;
+    font-size: 35px;
+    background-color: white;
+    color: #009AED;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.rights {
+    height: 90%;
+    width: 30%;
+    position: relative;
+    color: white;
+    font-weight: 900;
+}
+
+.right {
+    height: 100%;
+    width: 100%;
+    color: white;
+    /* align-items: center; */
+    padding: 20px 50px;
+    gap: 3vw;
+
+    /* filter: blur(1.5px); */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url(https://i.pinimg.com/564x/14/a6/f3/14a6f3466a0cd527e7643dfa13f33859.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(0px);
+    -webkit-filter: blur(5px);
+}
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-weight: 900;
+
+}
+
+.rights h2 {
+    font-size: 40px;
+    margin: 10% 0;
+}
+
+.rights p {
+    font-size: 17px;
+}
+
+.bttn button {
+    padding: 15px 10px;
+    margin: 10px 0;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
